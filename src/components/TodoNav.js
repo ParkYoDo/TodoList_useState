@@ -25,7 +25,7 @@ function TodoNav({ isLogin, loginUser, setIsLogin }) {
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 <Link to="/">
                   <TfiWrite style={{ marginRight: '12px', fontSize: '24px' }} />
-                  To Do List
+                  To Do List :)
                 </Link>
               </Typography>
               {isLogin ? (

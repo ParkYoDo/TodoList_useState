@@ -1,8 +1,8 @@
 import React from 'react';
-import TodoTemplate from './TodoTemplate';
-import TodoHeader from './TodoHeader';
-import TodoList from './TodoList';
-import TodoCreate from './TodoCreate';
+import TodoTemplate from '../components/TodoTemplate';
+import TodoHeader from '../components/TodoHeader';
+import TodoList from '../components/TodoList';
+import TodoCreate from '../components/TodoCreate';
 
 function Home({ todos, setTodos, isLogin, loginUser }) {
   return (

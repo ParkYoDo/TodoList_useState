@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import SignUp from './components/SignUp';
-import Login from './components/Login';
-import MyPage from './components/MyPage';
+import Home from './routes/Home';
+import SignUp from './routes/SignUp';
+import Login from './routes/Login';
+import MyPage from './routes/MyPage';
 import TodoNav from './components/TodoNav';
 
 const AppBlock = styled.div`
-  margin: 0;
   height: 100vh;
   width: 100vw;
   background-color: #e9ecef;
-  box-sizing: border-box;
+  body,
+  html {
+    margin: 0;
+    box-sizing: border-box;
+  }
 `;
 
 function App() {
@@ -92,7 +95,6 @@ function App() {
     <>
       <AppBlock>
         <TodoNav isLogin={isLogin} loginUser={loginUser} />
-
         <Routes>
           <Route
             path="/"

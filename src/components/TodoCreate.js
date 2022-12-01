@@ -132,6 +132,7 @@ function TodoCreate({ todos, setTodos, loginUser, isLogin }) {
             onChange={onChange}
             ref={titleInput}
             onKeyDown={onKeyDown}
+            style={{ width: '35%' }}
           />
           <Input
             type="text"
@@ -140,6 +141,7 @@ function TodoCreate({ todos, setTodos, loginUser, isLogin }) {
             placeholder="Content"
             onChange={onChange}
             onKeyDown={onKeyDown}
+            style={{ width: '65%' }}
           />
         </InsertForm>
       )}

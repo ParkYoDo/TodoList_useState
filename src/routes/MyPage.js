@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Badge from 'react-bootstrap/Badge';
 import ListGroup from 'react-bootstrap/ListGroup';
-import ModifyUser from './ModifyUser';
+import ModifyUser from '../components/ModifyUser';
 
 const MyPageBlock = styled.div`
   width: 512px;

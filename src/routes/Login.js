@@ -16,9 +16,7 @@ const DarkBackground = styled.div`
 
 const LoginBlock = styled.div`
   width: 70%;
-  height: 40%;
   max-width: 700px;
-  min-height: 330px;
   padding: 20px;
 
   background-color: white;
